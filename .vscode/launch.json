@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "update",
+      "program": "${workspaceFolder}/bin/cli-main.js",
+      "args": ["update"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "vue2",
+      "program": "${workspaceFolder}/bin/cli-main.js",
+      "args": ["vue2"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "vue3",
+      "program": "${workspaceFolder}/bin/cli-main.js",
+      "args": ["vue3"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
